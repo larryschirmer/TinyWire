@@ -19,7 +19,7 @@ extern "C" {
   #include <avr/interrupt.h>
   }
 
-#include "TinyWireS.h"
+#include "TinyWireSlave.h"
 #include "Arduino.h"
 
 // Constructors ////////////////////////////////////////////////////////////////
