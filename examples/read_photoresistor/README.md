@@ -64,9 +64,9 @@ Open a [build.particle.io](build.particle.io) sketch and copy `photon_read_i2c.i
 After the photon connects to wifi, it will begin to request readings from the ATtiny85. There are two ways to interact with this prototype. 
 
 1. The onboard LED: The LED will light up when there is less light and turn off when there is more light (much like a night light). This means that the ATtiny85 is converting the voltage difference into an analog reading properly. 
-2. [Particle's Devices Console](https://console.particle.io/devices): After selecting the photon from the list of claimed devices, the photon should be logging events in the details page. 
+2. [Particle's Devices Console](https://console.particle.io/devices): After selecting the photon from the list of claimed devices, the photon should be logging events in the details page. The expected value will be between 0 and 255 (0 - darkest, 255 lightest).
 
-![example event logs]()
+![example event logs](https://raw.githubusercontent.com/larryschirmer/TinyWire/lib/add-reRef-files/examples/read_photoresistor/example_event_logs.png)
 
 Sources/Resources:
 
